@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to left, #6a11cb, #2575fc);
+}
+
+#title {
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 75px;
+}
+
+section,
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+#flex {
+  display: flex;
+}
+
+#about {
+  display: flex;
+}
+
+#about img {
+  margin-left: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: #777;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+h3 {
+  color: #555;
+}
+
+#img100 {
+  width: 100px;
+  height: 100px;
+}
+/* table styling*/
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: separate; /* Change from collapse to separate */
+  border-spacing: 10px; /* Add space between cells */
+  margin-top: 20px;
+}
+td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  vertical-align: top;
+  width: 50%; /* Make sure each cell is 50% of the table width */
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+tr:hover {
+  background-color: #f1f1f1;
+}
+/*work experience styling*/
+#work-experience-projects {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+#work-experience-projects h2 {
+  text-align: center;
+  color: #333;
+}
+#work-experience-projects div.project,
+#work-experience-projects div.company {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+#perience-projects .project img {
+  display: block;
+  margin: 10px 0;
+  max-width: 100px;
+  height: auto;
+}
+
+/* Contact form input and textarea styles */
+#contact input,
+#contact textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/*button styling*/
+#send-button {
+  background-color: #4caf50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  font-size: 14px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+}
+
+#send-button:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}

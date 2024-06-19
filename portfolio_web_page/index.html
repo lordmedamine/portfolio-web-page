@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Med's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <!-- this is the header section where i have the title of my portfolio web page
+     which is my name and the nav bar that have 4 elements that send you to the area 
+     linked to once clicked -->
+    <header>
+      <h1 id="title">Oueriemmi Mohamed lamine</h1>
+      <h4 id="title">software engineering student</h4>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work-experience-projects">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#GoMyCode">GoMyCode</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- about me section-->
+    <section id="about">
+      <div>
+        <h2>About me</h2>
+        <p>
+          I am currently a fourth-year software engineering student at the
+          Higher Institute of Computer Science and Multimedia of Gabès.
+          Passionate about technology and innovation, I am dedicated to honing
+          my skills through practical experience and continuous learning. Beyond
+          my academic pursuits, I actively engage in programs at GoMyCode, where
+          I delve into real-world projects and collaborate with industry
+          professionals. This hands-on approach has enriched my understanding of
+          software development, from coding intricate algorithms to designing
+          user-friendly interfaces. As I advance in my studies, I am driven by a
+          deep-seated curiosity to explore emerging technologies and contribute
+          meaningfully to the ever-evolving field of software engineering.
+        </p>
+      </div>
+      <img src="GOMYCODE_LOGO.png" alt="GOMYCODE_Logo" ;"/>
+    </section>
+    <!-- work section-->
+    <section id="work-experience-projects">
+      <h2>Work Experience & Projects</h2>
+
+      <!-- E-commerce Website -->
+      <div class="project" id="flex">
+        <div>
+          <h3>E-commerce Website</h3>
+          <p>
+            Developed an e-commerce platform using React and Redux for state
+            management. Integrated features such as product listings, shopping
+            cart functionality with persistent cart storage, user authentication
+            with JWT, and seamless payment gateway integration.
+          </p>
+        </div>
+        <img src="Ec.webp" id="img100" />
+      </div>
+
+      <!-- Portfolio Website -->
+      <div class="project" id="flex">
+        <div>
+          <h3>Portfolio Website</h3>
+          <p>
+            Designed and developed a responsive portfolio website using HTML5,
+            CSS3, and JavaScript. Showcased professional projects, skills, and
+            experiences with interactive elements and smooth transitions to
+            provide an engaging user experience.
+          </p>
+        </div>
+        <img src="PE.png" id="img100" />
+      </div>
+
+      <!-- Restaurant Website -->
+      <div class="project" id="flex">
+        <div>
+          <h3>Restaurant Website</h3>
+          <p>
+            Created a dynamic restaurant website using WordPress and customized
+            themes. Implemented functionalities such as online menu display,
+            table booking management, customer reviews, and integrated social
+            media feeds to enhance customer engagement and satisfaction.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- resume section-->
+    <section id="resume">
+      <h2>Resume</h2>
+      <div>
+        <h3>Education</h3>
+        <p>
+          Bachelor of Math <br />
+          currently studying at Higher Institute of Computer Science and
+          Multimedia of Gabès<br />Expected Graduation: June 2026
+        </p>
+      </div>
+
+      <div>
+        <h3>Professional Experience</h3>
+        <table>
+          <tr>
+            <td>
+              <p>
+                Software Engineering Intern<br />Omegaup, zarzis<br />June 2022
+                - july 2022<br />
+              </p>
+            </td>
+            <td>
+              <p>
+                digital transformation and management
+                <br />softifi, zarzis<br />july 2024 - August 2024<br />
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div>
+        <h3>Skills</h3>
+        <ul>
+          <li>Programming Languages: Java, Python, JavaScript</li>
+          <li>Frameworks & Libraries: React, Node.js, next.js</li>
+          <li>Tools & Technologies: Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <!--section GoMyCode-->
+    <section id="GoMyCode">
+      <h2>About GoMyCode</h2>
+      <div id="flex">
+        <p>
+          My experience at GOMYCODE has been incredibly enriching and
+          transformative. The program offers a wealth of game-changing
+          techniques and methods that have significantly enhanced my skills and
+          knowledge in [specific field or subject area]. Each chapter is
+          meticulously structured, providing clear and precise learning
+          objectives that guide you through a comprehensive curriculum. The
+          rewarding nature of the program stems from its practical approach and
+          hands-on projects, which not only deepen understanding but also
+          prepare you for real-world challenges. Whether you're a beginner or an
+          experienced professional, GOMYCODE provides a supportive learning
+          environment that fosters growth and innovation. If you're looking to
+          elevate your skills and advance your career, I highly recommend
+          exploring what GOMYCODE has to offer.
+          <br />
+          <a href="https://gomycode.com/tn/">Check out GOMYCODE's website</a>
+          for more information.
+        </p>
+
+        <iframe
+          width="560"
+          height="250"
+          src="https://www.youtube.com/embed/9AmSlJq48wE?si=N3hS31zZ6rjpa115"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" id="send-button">Send</button>
+      </form>
+    </section>
+  </body>
+</html>
